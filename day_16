@@ -1,0 +1,93 @@
+# n='hEllo pyThon'
+# print(n.endswith(''))
+# print(n.endswith(""))
+# print(n.endswith(' '))
+# print(n.endswith('n'))
+# print(n.endswith('h'))
+
+# n='akhila'
+# print(n.endswith(''))
+# print(n.endswith(" "))
+# print(n.endswith('a'))
+# print(n.endswith('l'))
+
+# n="akhila"
+# print(n.startswith(''))
+# print(n.startswith(' '))
+# print(n.startswith("a"))
+# print(n.startswith('r'))
+
+# a=" akhila"
+# print(a.startswith(""))
+# print(a.startswith(' '))
+# print(a.startswith('a'))
+
+# a=''
+# b='      '
+# print(a.isspace())
+# print(b.isspace())
+
+# b="anugu akhila reddy"
+# print(b.index('u'))
+# print(b.index('l'))
+# print(b.rindex('r'))
+# print(b.index('a',8))
+# print(b.index('y'))
+# print(len(b))
+# print(len('anthireddygari akhila reddy'))
+# print(b.index('c'))
+# print(b.index(""))
+# print(b.rindex(""))
+
+# print(dir(str))
+
+# print(dir(bytes))
+
+# a="akhila"
+# print(a.find('a'))
+# print(a.find('h'))
+# print(a.find('l'))
+# print(a.find('y'))
+# print(a.find(""))
+# print(a.rfind('a'))
+
+# a="anugu akhila reddy"
+# print(a.count('a'))
+# print(a.count('i'))
+# print(a.count('u'))
+# print(a.count('d'))
+# print(a.count(""))
+# print(len(a))
+
+# a="akhila reddy"
+# print(a.replace('reddy','anugu'))
+# print(a.replace('a','@'))
+# print(a.replace('d','*',1))
+# print(a.replace('d','*',2))
+# print(a.replace('r','$'))
+# b="anthireddygari anugu"
+# print(b.replace("anugu","akhila"))
+# print(b.replace('g','%',1))
+# print(b.replace('g','%',2))
+
+# a="         akhila    @       "
+# print(a.strip())
+# print(a.lstrip())
+# print(a.rstrip())
+
+# a="akhila","reddy","anugu"
+# print(a,type(a))
+# b=" hi ".join(a)
+# print(b)
+# c="hello"
+# d="@".join(c)
+# print(d)
+# e="hello",
+# f="$".join(e)
+# print(f)
+# g="hello","world"
+# h=" * ".join(g)
+# print(h)
+# k="hey",""
+# p=" % ".join(k)
+# print(p)
